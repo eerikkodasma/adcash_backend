@@ -1,0 +1,42 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django-specific files
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media
+staticfiles
+
+# Virtual environment
+venv/
+env/
+.venv/
+.venv/
+
+# .env file containing sensitive data (e.g., SECRET_KEY, DB_PASSWORD)
+.env
+
+# Backup files
+*.bak
+*.swp
+
+# IDE/editor settings
+.idea/
+.vscode/
+
+# macOS-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+
+# Docker related files
+*.docker
+Dockerfile
+docker-compose.yml
